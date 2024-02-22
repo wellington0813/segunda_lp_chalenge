@@ -9,7 +9,7 @@ import { LuCrown } from "react-icons/lu";
 const Secound = () => {
     return(
 
-        <section className="pb-24 pt-10 max-h-[1000px] h-screen max-w-7xl px-4 md:mx-auto ">
+        <section className="max-w-7xl px-4 md:mx-auto ">
           
             <div className="text-white pb-10 mb-10">
                 <p className="text-[#00ff5f]">Você acontece</p>

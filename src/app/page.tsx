@@ -8,9 +8,11 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Secound/>
-      <Third/>
+      <div className="md:space-y-24 space-y-12">
+        <Hero />
+        <Secound />
+        <Third />
+      </div>
     </div>
   );
 }

@@ -1,16 +1,11 @@
-import Image from "next/image"
-import Cell from "../assets/cellphone.webp"
-import Link from "next/link";
 
-import { BsCoin } from "react-icons/bs";
-import { MdMoneyOff } from "react-icons/md";
-import { LuCrown } from "react-icons/lu";
-
-const Third = () =>{
+const Third = () => {
     return(
-        <div className="text-white">
-            <h1>aqui</h1>
-        </div>
+
+        <section className="max-w-7xl px-4 md:mx-auto ">
+          <h1 className="text-8xl text-zinc-50">Hello World</h1>
+             
+        </section>
     )
 }
 
