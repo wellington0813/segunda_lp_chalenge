@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+import Fourth from "@/components/Fourth";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Secound from "@/components/Secound";
@@ -11,6 +13,8 @@ export default function Home() {
       <Hero />
       <Secound/>
       <Third/>
+      <Fourth/>
+      <Footer/>
     </div>
   );
 }
